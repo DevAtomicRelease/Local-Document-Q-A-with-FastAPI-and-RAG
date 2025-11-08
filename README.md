@@ -60,7 +60,9 @@ requests
 ## To start the FastAPI Server
 
 In your terminal (with the virtual environment activated), run the following command from the project's root directory:
+
 `python -m uvicorn backend.app.qa_api:app --reload --reload-dir backend`
+
 You should see a confirmation that Uvicorn is running on http://127.0.0.1:8000.
 
 ### Use the API
